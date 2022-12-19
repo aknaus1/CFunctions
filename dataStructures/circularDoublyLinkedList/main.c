@@ -1,4 +1,4 @@
-// Generate random numbers and sort them using merge sort.
+// Test circular doubly linked list functions
 # include <stdio.h>
 # include <stdlib.h>
 # include <time.h>

@@ -12,6 +12,23 @@
         "vector": "c",
         "string": "c",
         "string_view": "c",
-        "ios": "c"
+        "ios": "c",
+        "quicksort.h": "c",
+        "insertionsort.h": "c",
+        "bubblesort.h": "c",
+        "heapsort.h": "c",
+        "array.h": "c",
+        "__config": "c",
+        "__hash_table": "c",
+        "__locale": "c",
+        "__split_buffer": "c",
+        "memory_resource": "c",
+        "functional": "c",
+        "locale": "c",
+        "memory": "c",
+        "unordered_map": "c",
+        "variant": "c",
+        "__functional_03": "c",
+        "__functional_base": "c"
     }
 }

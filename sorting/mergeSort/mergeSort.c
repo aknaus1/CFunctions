@@ -5,15 +5,7 @@
 
 # include "mergeSort.h"
 
-/**
- * @brief Merge two sorted arrays
- * 
- * @param a  First array
- * @param b  Second array
- * @param c  Merged array
- * @param n  Size of first array
- * @param m  Size of second array
- */
+// merge two sorted arrays
 void merge(int *a, int *b, int *c, int n, int m) {
     int i = 0, j = 0, k = 0;
     while (i < n && j < m) {
@@ -38,12 +30,9 @@ void merge(int *a, int *b, int *c, int n, int m) {
     }
 }
 
-/**
- * @brief Merge Sort
- * 
- * @param a  Array to be sorted
- * @param n  Size of array
- */
+// merge sort array
+// Runtime: O(n log n)
+// Memory: O(n)
 void mergeSort(int *a, int n) {
     if (n > 1) {
         int *b = (int *)malloc(n / 2 * sizeof(int));
